@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: wheat;
 }
 
 .App-link {
@@ -35,4 +35,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  gap: 30px;
+}
+
+.todolist > li > span:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.next:hover {
+  cursor: pointer;
+} 
+
+.del {
+  color: red;
+  font-weight: bolder;
+  border: transparent;
+  background-color: transparent;
+  border: none;
+}
+
+.del:hover {
+  cursor: pointer;
 }
